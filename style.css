@@ -3,17 +3,28 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: sans-serif, "Times New Roman";
+  position: relative;
 }
 
 /*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
+  position: fixed;
+  width: 100%;
   background-color: red;
   height: 7vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
+/* .navColor {
+  background: rgba(150, 150, 150, 0.192);
+  height: 7vh;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+.navColor .links a {
+  color: black;
+} */
 /*mmmmmmmmmmmmmmm links  styling mmmmmmmmmmmmmmmmmm */
 .links {
   list-style-type: none;
@@ -65,6 +76,7 @@ nav {
     width: 100%;
     padding: 25px;
     position: fixed;
+    align-content: space-around;
   }
   /*mmmmmmmmmmmm logo mmmmmmmmm*/
   .logo {
@@ -79,10 +91,10 @@ nav {
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
-    /* background-color: transparent; */
+
     text-align: center;
     height: 95vh;
     width: 100%;
