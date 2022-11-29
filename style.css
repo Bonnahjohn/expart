@@ -1,0 +1,117 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif, "Times New Roman";
+}
+
+/*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+nav {
+  background-color: red;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*mmmmmmmmmmmmmmm links  styling mmmmmmmmmmmmmmmmmm */
+.links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  padding-right: 15%;
+  padding-top: 5px;
+  font-size: 14px;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+/*  mmmmmmmmmmmmmmmmmmm logo styling mmmmmmmmmmmmmmmmm*/
+.logo {
+  color: white;
+}
+/* mmmmmmmmmmmmmmmmm burger styling for the nav mmmmmmmmmmmmmm*/
+.burger div {
+  background-color: black;
+  width: 35px;
+  margin: 6px 0;
+  height: 5px;
+}
+.md {
+  display: none;
+  font-style: oblique;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    position: relative;
+  }
+  /*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    padding: 25px;
+    position: fixed;
+  }
+  /*mmmmmmmmmmmm logo mmmmmmmmm*/
+  .logo {
+    font-style: oblique;
+    font-weight: bold;
+  }
+  /*mmmmmmmmmmmmmmm links  styling mmmmmmmmmmmmmmmmmm */
+  .links {
+    left: 0;
+    top: 7vh;
+    position: absolute;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    /* background-color: transparent; */
+    text-align: center;
+    height: 95vh;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-out;
+  }
+  /*mmmmmmmmmmmmmmmmmm links translating for showing mmmmmmmmmmmmmmmmmmmm*/
+  .navLinks {
+    transform: translateX(0%);
+  }
+  .md {
+    display: flex;
+    flex-direction: column;
+  }
+  .submit {
+    display: none;
+  }
+  .burger {
+    display: block;
+    padding-right: 30px;
+  }
+  /*mmmmmmmmmmmmmmmmm burger animation for menu shows mmmmmmmmmmmmmmmm*/
+  .take .line1 {
+    transform: translate(0px, 11px) rotate(-45deg);
+  }
+  .take .line2 {
+    opacity: 0;
+  }
+  .take .line3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+}
