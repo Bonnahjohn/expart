@@ -8,7 +8,7 @@ body {
 
 /*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   background-color: red;
   height: 7vh;
