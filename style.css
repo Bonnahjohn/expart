@@ -1,20 +1,22 @@
-body {
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: sans-serif, "Times New Roman";
-  position: relative;
+  overflow: hidden;
+  /* position: relative; */
 }
 
 /*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
-nav {
-  /* position: fixed; */
-  width: 100%;
+.navs {
+  position: fixed;
+  width: 100vw;
   background-color: red;
   height: 7vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
 }
 /* .navColor {
   background: rgba(150, 150, 150, 0.192);
@@ -66,10 +68,11 @@ nav {
 @media screen and (max-width: 768px) {
   body {
     position: relative;
+   
   }
   /*mmmmmmmmmmmmmmmmmmmmm navbar styling for the page mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 
-  nav {
+  .navs {
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -86,7 +89,7 @@ nav {
   /*mmmmmmmmmmmmmmm links  styling mmmmmmmmmmmmmmmmmm */
   .links {
     left: 0;
-    top: 7vh;
+    top: 8vh;
     position: absolute;
     position: fixed;
     display: flex;
@@ -126,3 +129,5 @@ nav {
     transform: translate(0, -11px) rotate(45deg);
   }
 }
+
+footer{padding-top: 5%;}
