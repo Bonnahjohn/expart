@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COOKING EXPERTS</title>
    <link rel="stylesheet" href="bootstrap-5.2.3/css/bootstrap.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -45,7 +45,7 @@
       </div>
     </nav>
     <!--mmmmmmmmmmmmmmmmm navBar for large screens  mmmmmmmmmmmmmmm-->
-    <nav class="d-lg-flex d-none justify-content-between  bg-danger w-100 position-fixed align-items-center">
+    <nav class="d-lg-flex d-none justify-content-between  bg-danger w-100 position-fixed align-items-center" style=" z-index: 9999;">
 <div class="d-lg-flex d-none justify-content-between container align-items-center pt-2 ">
    <span class=" px-lg-0 px-2 logo">LOGO</span>
   <ul class="navbar me-5 align-items-center text-light pe-5">
@@ -71,26 +71,110 @@
     </nav>
     
     <main class="body-top">
-       <!--mmmmmmmmmmmmmmmmmmm cook together  mmmmmmmmmmmmmmmmmm-->
-       <section class="pt-5 pb-5 container">
-<div class="d-flex flex-row justify-content-around align-items-center">
-<div class="mt-5">
-  <h4 class="fw-bold pt-5" style="word-spacing: 4px;">Cook Together With The   <br>Expart</h4>
-<p class="text-wrap" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit.<br> Possimus, illum magni 
-  itaque  accusamus fugit volup <br>tum, delectus  nisi deserunt praesentium 
+    <!-- --mmmmmmmmmmmmmmmmm hero part mmmmmmmmmmmmmm -->
+           <section class="pt-1 pt-lg-4 " style="background-color: whitesmoke;">
+<div class="grid ">
+<div class="g-col-lg-6 g-col-12 mt-5  pt-5 " id="start" >
+  <h1 class="fw-bold mt-5" style="word-spacing: 2px;">Cook Anything With <br>The Expect</h1>
+<p class="text-wrap d-lg-block d-none" style="font-size: 14px;word-spacing: 4px;">Lorem ipsum dolor sit amet consectetur adipisici elit.<br>tum, delectus  nisi deserunt praesentium 
  .</p>
- <p style="font-size: 14px;" class="pb-3">Possimus, illum magni 
-  itaque  accusamus fugit volup <br>tum, delectus  nisi deserunt  </p>
-  <a href="#e" role="button" class="btn btn-danger rounded-0">Explore More</a>
+ <p class="text-wrap d-lg-none d-block" style="font-size: 14px;word-spacing: 4px;">Lorem ipsum dolor sit amet consectetur adipisici elit.tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <!-- for mobile screens -->
+ <p style="font-size: 14px;" class="pb-3 d-lg-none d-block">Possimus, illum magni 
+  itaque  accusamus fugit volup tum, delectus    </p>
+  <!-- for large screens -->
+ <p style="font-size: 14px;" class="pb-3 d-lg-block d-none">Possimus, illum magni 
+  itaque  accusamus fugit volup <br>tum, delectus    </p>
+ <div class="d-flex" >
+  <div class="p-2"> <a href="#e" role="button" class="btn btn-danger rounded-0">Let's Cook</a></div>
+  <div class="p-2"> <a href="#e" role="button" class="btn btn-outline-dark rounded-0 " >Explore More</a></div>
+ </div>
 </div>
-  <div class="">
-<img src="assets/j.jpg" alt=" expart" class="w-100">
+  <div class="g-col-lg-6 d-lg-block d-none">
+<div class="top"></div>
   </div>
 </div>
 
        </section>
+       <!--mmmmmmmmmmmmmmmmmmm underneath of the hero mmmmmmmmmmmmmmmmm-->
+       <section class="container pt-5 mt-5">
+        <h3 class="text-center fw-bold"  style="word-spacing: 2px;">Get a many of interesting feature</h3>
+  <p class="text-wrap d-lg-block d-none text-center" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit  Lorem ipsum <br>tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <p class="text-wrap d-lg-none d-block text-center" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit.tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <!--mmmmmmmmmmmmmm cards mmmmmmmmmmmmmmmmmmmm -->
+<div class="grid ">
+  <div class="g-col-lg-3 g-col-12">
+    <div class="card align-items-center border-light shadow-lg  m-1 pb-3">
+      <span><i class="fa fa-cookie pt-5 fs-1"></i></span>
+      <div class="card-body">
+        <h5 class="card-title text-center fw-bold">Menu variation</h5>
+         <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
+           officiis voluptas tenetur, assumenda.</p>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-lg-3 g-col-12">
+    <div class="card align-items-center border-light   pb-3 shadow-lg m-1">
+      <span><i class="fa fa-pizza-slice pt-5 fs-1 text-danger"></i></span>
+      <div class="card-body">
+        <h5 class="card-title text-center fw-bold">Cooking warw</h5>
+        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
+           officiis voluptas tenetur, assumenda.</p>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-lg-3 g-col-12">
+    <div class="card align-items-center border-light shadow-lg m-1 pb-3">
+     <span><i class="fa fa-hamburger pt-5 fs-1"></i></span>
+      <div class="card-body">
+        <h5 class="card-title text-center fw-bold">Best chief</h5>
+        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
+           officiis voluptas tenetur, assumenda.</p>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-lg-3 g-col-12">
+    <div class="card align-items-center border-light shadow-lg  m-1 pb-3">
+     <span><i class="fa fa-bowling-ball pt-5 fs-1"></i></span>
+      <div class="card-body">
+        <h5 class="card-title text-center fw-bold">fast food</h5>
+        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
+           officiis voluptas tenetur, assumenda.</p>
+      </div>
+    </div>
+  </div>
+</div>
+       </section>
+       <!--mmmmmmmmmmmmmmmmmmm cook together  mmmmmmmmmmmmmmmmmm-->
+       <section class="pt-5 pb-5 container mt-5">
+<div class="d-flex flex-lg-row flex-column justify-content-between">
+<div class="mt-0 pt-0 mt-lg-5">
+  <h4 class="fw-bold pt-5" style="word-spacing: 4px;">Cook Together With The   <br>Expart</h4>
+<p class="text-wrap d-lg-block d-none" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit.<br> Possimus, illum magni 
+  itaque  accusamus fugit volup <br>tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <!--mmmmmmmmmmmmmmmmm for mobile screens mmmmmmmmmmmmmmmm-->
+ <p class="text-wrap d-lg-none d-block" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit. Possimus, illum magni 
+  itaque  accusamus fugit volup tum, delectus  nisi deserunt praesentium 
+  .</p> 
+    <!-- mmmmmmmmmmmmmm for large screens mmmmmmmmmmmmmm -->
+ <p style="font-size: 14px;" class="pb-3 d-lg-block d-none">Possimus, illum magni 
+  itaque  accusamus fugit volup <br>tum, delectus  nisi deserunt  </p>
+   <!--mmmmmmmmmmmmmmmmm for mobile screens mmmmmmmmmmmmmmmm-->
+   <p style="font-size: 14px;" class="pb-3  d-lg-none d-block">Possimus, illum magni 
+  itaque  accusamus fugit volup tum, delectus  nisi deserunt  </p>
+  <a href="#e" role="button" class="btn btn-danger rounded-0">Explore More</a>
+</div>
+  <div class="pt-lg-0 pt-4">
+<img src="assets/j.jpg" alt=" expart" class="w-100">
+  </div>
+</div>
+       </section>
         <!--mmmmmmmmmmmmmmmmmmm expart workers  mmmmmmmmmmmmmmmmmm-->
-        <section class="container">
+        <section class="container mt-5">
           <h4 class="text-center text-capitalize fw-bold">Let's meet the expart</h4>
 <p class="text-center d-lg-block d-none" style="font-size: 14px;">Lorem, ipsum dolor sit amet
    consectetur consectetur adipisici <br> placeat veniam repellendus, laudantium nisi .</p>
@@ -105,7 +189,7 @@
        </div>
 </section>
        <!--mmmmmmmmmmmmmmmmmmm gallery grid wrappers  mmmmmmmmmmmmmmmmmm-->
-       <section class="pt-5 pb-5 ">
+       <section class="pt-5 pb-5 mt-5">
 <h4 class="text-center fw-bold" style="word-spacing: 2px;">Gallery of our food & cook</h4>
 <p class="text-center d-lg-block d-none" style="font-size: 14px;">Lorem, ipsum dolor sit amet 
   consectetur adipis consectetur<br> placeat veniam repellendus, laudantium nisi .</p>
@@ -143,13 +227,13 @@
   <!--mmmmmmmmmmmmmmmmmmm footer grid wrappers  mmmmmmmmmmmmmmmmmm-->
        <footer  style="background-color: whitesmoke;">
           <div class="container p-4 ">
-<div class="grid" >
-<div class="g-col-6 g-col-lg-3 d-lg-block d-none">
+<div class="grid pt-4" >
+<div class="g-col-6 g-col-lg-3 d-lg-block d-none ">
 <h6 class="fw-bold">LOGO</h6>
 </div>
 
 <div class="g-col-6 g-col-lg-2">
-<h6>Product</h6>
+<h6 class="fw-bold">Product</h6>
 <ol class="list-unstyled pt-3  " style="font-size: 14px;">
   <li><a href="#p" class="text-decoration-none text-dark " >Food menu</a></li>
 <li><a href="#p" class="text-decoration-none text-dark " >praesentium!</a></li>
@@ -160,7 +244,7 @@
 </div>
 
 <div class="g-col-6 g-col-lg-2">
-<h6>Resources</h6>
+<h6 class="fw-bold">Resources</h6>
 <ol class="list-unstyled pt-3  " style="font-size: 14px;">
   <li><a href="#p" class="text-decoration-none text-dark " >Food Gallery</a></li>
 <li><a href="#p" class="text-decoration-none text-dark " >praesentium!</a></li>
@@ -170,7 +254,7 @@
 </ol>
 </div>
 <div class="g-col-4 g-col-lg-2">
-<h6>Company</h6>
+<h6 class="fw-bold">Company</h6>
 <ol class="list-unstyled pt-3  " style="font-size: 14px;">
   <li><a href="#p" class="text-decoration-none text-dark " >Partnership</a></li>
 <li><a href="#p" class="text-decoration-none text-dark " >terms of use!</a></li>
@@ -180,7 +264,7 @@
 </ol>
 </div>
 <div class="g-col-8 g-col-lg-3">
-<h6>Get in Touch</h6>
+<h6 class="fw-bold">Get in Touch</h6>
 <p style="font-size: 14px;" class="text-wrap pt-3 d-lg-block d-none">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Et accusantium max <br> ipsa, minima sint laboriosam repellendus consequuntur corporis corrupti oditgtes <br>  dignissimos.</p>
 <p style="font-size: 14px;" class=" pt-3 d-block d-lg-none">Lorem ipsum dolor sit amet consectetur   adipisicing elit. Et accusantium max  ipsa, minima sint laboriosam repellendus consequuntur corporis corrupti oditgtes  dignissimos.</p>
 </div>
