@@ -7,7 +7,7 @@
 }
 
 nav {
-  height: 8vh;
+  height: 7vh;
   align-items: center;
   overflow-y: hidden;
 }
@@ -85,7 +85,7 @@ nav {
   /*mmmmmmmmmmmmmmm links  styling mmmmmmmmmmmmmmmmmm */
   .links {
     left: 0;
-    top: 8vh;
+    top: 7vh;
     position: absolute;
     position: fixed;
     display: flex;

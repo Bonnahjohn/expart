@@ -18,7 +18,8 @@
         <li><a href="#">Recipe</a></li>
         <li><a href="#">Gallery</a></li>
         <!--mmmmmmmmmmmmmm navBar to show on small screens only mmmmmmmmmmmmmmm -->
-     <li>   <div class="md">
+
+       <div class="md">
           <a
             href="tel:+"
             class="text-decoration-none pe-4 none pb-lg-0 pb-2"
@@ -34,7 +35,7 @@
           >
             sign in</a
           >
-        </div></li>
+        </div>
       </ul>
       
       </div>
@@ -53,7 +54,7 @@
         <li class="nav-items"><a href="#" class="nav-link  me-4">About</a></li>
         <li class="nav-items"><a href="#" class="nav-link me-3">Recipe</a></li>
         <li class="nav-items"><a href="#" class="nav-link me-2">Gallery</a></li></ul>
-        <li> <div class="submit mb-2">
+        <div class="submit mb-2">
         <a href="tel:+" class="text-decoration-none pe-4" style="color: white"
           ><i class="fa fa-mobile-alt"></i>  +1(909)2359814</a
         >
@@ -66,7 +67,7 @@
         >
           sign in</a
         >
-      </div></li>
+      </div>
 </div>
     </nav>
     
@@ -74,7 +75,7 @@
     <!-- --mmmmmmmmmmmmmmmmm hero part mmmmmmmmmmmmmm -->
            <section class="pt-1 pt-lg-4 " style="background-color: whitesmoke;">
 <div class="grid ">
-<div class="g-col-lg-6 g-col-12 mt-0  pt-4 ms-lg-5 " id="start" >
+<div class="g-col-lg-6 g-col-12 mt-0  pt-4 ms-lg-5 d-lg-block d-none" id="start" >
   <h1 class="fw-bold mt-5" style="word-spacing: 2px;">Cook Anything With <br>The Expect</h1>
 <p class="text-wrap d-lg-block d-none" style="font-size: 14px;word-spacing: 4px;">Lorem ipsum dolor sit amet consectetur adipisici elit.<br>tum, delectus  nisi deserunt praesentium 
  .</p>
@@ -91,6 +92,24 @@
   <div class="p-2"> <a href="#e" role="button" class="btn btn-outline-dark rounded-0 " >Explore More</a></div>
  </div>
 </div>
+<!-- for small screens -->
+<div class="g-col-lg-6 g-col-12 mt-0  pt-4 ms-lg-5 d-lg-none d-block container" >
+  <h1 class="fw-bold mt-5" style="word-spacing: 2px;">Cook Anything With <br>The Expect</h1>
+<p class="text-wrap d-lg-block d-none" style="font-size: 14px;word-spacing: 4px;">Lorem ipsum dolor sit amet consectetur adipisici elit.<br>tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <p class="text-wrap d-lg-none d-block" style="font-size: 14px;word-spacing: 4px;">Lorem ipsum dolor sit amet consectetur adipisici elit.tum, delectus  nisi deserunt praesentium 
+ .</p>
+ <!-- for mobile screens -->
+ <p style="font-size: 14px;" class="pb-3 d-lg-none d-block">Possimus, illum magni 
+  itaque  accusamus fugit volup tum, delectus    </p>
+ 
+ 
+ <div class="d-flex" >
+  <div class="p-2"> <a href="#e" role="button" class="btn btn-danger rounded-0">Let's Cook</a></div>
+  <div class="p-2"> <a href="#e" role="button" class="btn btn-outline-dark rounded-0 " >Explore More</a></div>
+ </div>
+</div>
+
   <div class="g-col-lg-6 d-lg-block d-none">
 <div class="top"></div>
   </div>
@@ -105,47 +124,50 @@
  <p class="text-wrap d-lg-none d-block text-center" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisici elit.tum, delectus  nisi deserunt praesentium 
  .</p>
  <!--mmmmmmmmmmmmmm cards mmmmmmmmmmmmmmmmmmmm -->
-<div class="grid ">
-  <div class="g-col-lg-3 g-col-12">
-    <div class="card align-items-center border-light shadow-lg  m-1 pb-3">
+<div class="d-flex flex-lg-row flex-column">
+
+  <div class="w-100 ">
+    <div class="card align-items-center border-light shadow-lg pb-3  m-1 ">
       <span><i class="fa fa-cookie pt-5 fs-1"></i></span>
       <div class="card-body">
         <h5 class="card-title text-center fw-bold">Menu variation</h5>
-         <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
-           officiis voluptas tenetur, assumenda.</p>
+         <p class="card-text text-wrap text-center " style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur  elit.  Maiores eveniet voluptatem et expedita  
+           officiis </p>
       </div>
     </div>
   </div>
-  <div class="g-col-lg-3 g-col-12">
-    <div class="card align-items-center border-light   pb-3 shadow-lg m-1 ">
+
+  <div class="w-100">
+    <div class="card align-items-center border-light  pb-3   shadow-lg m-1 ">
       <span><i class="fa fa-pizza-slice pt-5 fs-1 text-danger"></i></span>
-      <div class="card-body">
+      <div class="card-body ">
         <h5 class="card-title text-center fw-bold">Cooking warw</h5>
-        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
-           officiis voluptas tenetur, assumenda.</p>
+        <p class="card-text text-wrap text-center ">Lorem ipsum dolor sit amet consectetur  elit.  Maiores eveniet voluptatem et expedita  
+           officiis </p>
       </div>
     </div>
   </div>
-  <div class="g-col-lg-3 g-col-12">
-    <div class="card align-items-center border-light shadow-lg m-1 pb-3">
+  <div class="w-100">
+    <div class="card align-items-center border-light shadow-lg m-1 pb-3 ">
      <span><i class="fa fa-hamburger pt-5 fs-1"></i></span>
       <div class="card-body">
         <h5 class="card-title text-center fw-bold">Best chief</h5>
-        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
-           officiis voluptas tenetur, assumenda.</p>
+        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit.   Maiores eveniet voluptatem et expedita  
+           officiis </p>
       </div>
     </div>
   </div>
-  <div class="g-col-lg-3 g-col-12">
-    <div class="card align-items-center border-light shadow-lg  m-1 pb-3">
-     <span><i class="fa fa-bowling-ball pt-5 fs-1"></i></span>
-      <div class="card-body">
+
+  <div class="w-100">
+  <div class="card align-items-center border-light shadow-lg  m-1 pb-3 ">
+     <span><i class="fa fa-bowling-ball mt-5 fs-1"></i></span>
+      <div class="card-body ">
         <h5 class="card-title text-center fw-bold">fast food</h5>
-        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit. <br> Maiores eveniet voluptatem et expedita  <br>
-           officiis voluptas tenetur, assumenda.</p>
+        <p class="card-text text-wrap text-center">Lorem ipsum dolor sit amet consectetur  elit.  Maiores eveniet voluptatem et expedita  
+           officiis </p>
       </div>
     </div>
-  </div>
+</div>
 </div>
        </section>
        <!--mmmmmmmmmmmmmmmmmmm cook together  mmmmmmmmmmmmmmmmmm-->
@@ -183,9 +205,9 @@
    consectetur adipisici  consectetur placeat veniam repellendus, laudantium nisi .</p>
        <!--mmmmmmmmmmmmmmmmmmmmm image cards mmmmmmmmmmmmmmm-->
        <div class="d-flex flex-column flex-lg-row justify-content-between">
-<div class="pe-lg-2 pe-0 p-lg-0 p-2"><img src="assets/first-worker.jpg" alt="expart workers" class="w-100"></div>
-<div class="pt-lg-0 pt-1 pb-lg-0 pb-2"><img src="assets/second-worker.jpg" alt="expart workers" class="w-100"></div>
-<div class="ps-lg-2 ps-0"><img src="assets/third-worker.jpg" alt="expart workers" class="w-100"></div>
+<div class="pe-lg-2 pe-0 p-lg-0 p-2 order-3 order-lg-1"><img src="assets/first-worker.jpg" alt="expart workers" class="w-100"></div>
+<div class="pt-lg-0 pt-1 pb-lg-0 pb-2 order-lg-2"><img src="assets/second-worker.jpg" alt="expart workers" class="w-100"></div>
+<div class="ps-lg-2 ps-0 order-2 order-lg-3"><img src="assets/third-worker.jpg" alt="expart workers" class="w-100"></div>
        </div>
 </section>
        <!--mmmmmmmmmmmmmmmmmmm gallery grid wrappers  mmmmmmmmmmmmmmmmmm-->
@@ -199,7 +221,7 @@
 
 <div class="container pt-2 mt-5 pb-2 pe-2 ps-2 w-100" style="background-color: whitesmoke;">
 
-<div class="d-flex flex-row mb-0 w-100">
+<div class="d-flex flex-row mb-0 w-100 flex-lg-row flex-row-reverse">
   <div class="p-1"><img src="assets/gallery-1.jpg" alt="food gallery" class="w-100"></div>
   <div class="p-1 "><img src="assets/gallery-2.jpg" alt="food gallery" class="w-100"></div>
 </div>
