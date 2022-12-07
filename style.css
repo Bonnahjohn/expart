@@ -96,6 +96,7 @@ nav {
       url("assets/navbar.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     height: 95vh;
     width: 100%;
